@@ -1,3 +1,5 @@
-nlstem <- function(){
-
+#' @export
+#' @param words words to be stemmed.
+nlstem <- function(words){
 }
+

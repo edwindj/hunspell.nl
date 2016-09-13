@@ -6,7 +6,9 @@ Author: Edwin de Jonge
 Maintainer: Edwin de Jonge <edwindjonge@gmail.com>
 Description: Wraps a collection of stemming algorithms for the Dutch
     Language and includes Dutch Hunspell dictionaries.
-License: MIT + LICENSE
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
-Suggests: testthat
+Suggests:
+    testthat
+RoxygenNote: 5.0.1
