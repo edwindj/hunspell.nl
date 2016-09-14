@@ -2,12 +2,17 @@
 % Please edit documentation in R/set_dicpath_nl.R
 \name{set_dicpath_nl}
 \alias{set_dicpath_nl}
-\title{Adds Dutch dictionary to Hunspell dicpath}
+\title{Adds Dutch dictionary to Hunspell search path}
 \usage{
 set_dicpath_nl()
 }
 \description{
 Sets the environment variable \code{DICPATH} (if unset) to the package
 directory.
+}
+\examples{
+library(hunspell)
+set_dicpath_nl() # add dutch dictionary to hunspell search path
+hunspell(c("eitje", "ijtje"), dict="nl")
 }
 

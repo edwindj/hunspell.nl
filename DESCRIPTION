@@ -2,14 +2,14 @@ Package: nlstem
 Type: Package
 Title: Dutch Hunspell Dictionary
 Version: 0.0.1.9000
-Author@R: c(person("Edwin", " de Jonge", role="cre", email="edwindjonge@gmail.com"),
+Authors@R: c(person("Edwin", "de Jonge", role="cre", email="edwindjonge@gmail.com"),
   person("Open Taal", role="aut", comment="http://www.opentaal.org"))
 Description: Includes the Dutch hunspell dictionary, to be used in hunspell functions.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Suggests:
-    testthat, hunspell
+    testthat
 Imports:
   hunspell
 RoxygenNote: 5.0.1

@@ -9,4 +9,10 @@ dictionary_nl()
 \description{
 Gets a Dutch hunspell dictionary
 }
+\examples{
+library(hunspell)
+hunspell(c("eitje","ijtje"), dict=dictionary_nl())
+hunspell_suggest("ijtje", dictionary_nl())
+hunspell_stem("eitje", dict=dictionary_nl())
+}
 
