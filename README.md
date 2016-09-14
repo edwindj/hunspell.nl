@@ -9,7 +9,14 @@ making it easy to use Hunspell for Dutch on all R platforms.
 
 ## Usage
 
+```R
+library(hunspell)
+set_dicpath_nl() # add dutch dictionary to hunspell search path
+hunspell(c("eitje", "ijtje"), dict="nl")
 
+# or differently
+hunspell(c("eitje", "ijtje"), dict=dictionary_nl())
+```
 
 ## Dictionary source
 
@@ -18,5 +25,5 @@ On Ubuntu the (identical) dictionary can be installed with:
 sudo apt-get install hunspell-nl
 ```
 
-which provides also (soft) links for "nl-NL" and "nl-BE", all linking to "nl.dic"/
+which provides also (soft) links for "nl-NL" and "nl-BE", all linking to "nl.dic"
 
