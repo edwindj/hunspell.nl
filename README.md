@@ -11,11 +11,12 @@ making it easy to use Hunspell for Dutch on all R platforms.
 
 ```R
 library(hunspell)
-set_dicpath_nl() # add dutch dictionary to hunspell search path
-hunspell(c("eitje", "ijtje"), dict="nl")
+library(hunspell.nl)
+hunspell(c("eitje", "ijtje"), dict=dictionary_nl())
 
 # or differently
-hunspell(c("eitje", "ijtje"), dict=dictionary_nl())
+set_dicpath_nl() # add dutch dictionary to hunspell search path
+hunspell(c("eitje", "ijtje"), dict="nl")
 ```
 
 ## Dictionary source
