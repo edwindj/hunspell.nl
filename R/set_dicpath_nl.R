@@ -10,7 +10,7 @@
 set_dicpath_nl <- function(){
   DICPATH <- Sys.getenv("DICPATH")
   if (nchar(DICPATH) == 0){
-    Sys.setenv(DICPATH = system.file("dict", package="nlstem"))
+    Sys.setenv(DICPATH = system.file("dict", package="hunspell.nl"))
   } else {
     warning( "DICPATH not changed, it was already set to: '", DICPATH,"'."
            , call. = FALSE

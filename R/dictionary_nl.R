@@ -8,7 +8,7 @@
 #' hunspell_suggest("ijtje", dictionary_nl())
 #' hunspell_stem("eitje", dict=dictionary_nl())
 dictionary_nl <- function(){
-  hunspell::dictionary( lang  = system.file("dict/nl.dic", package = "nlstem")
+  hunspell::dictionary( lang  = system.file("dict/nl.dic", package = "hunspell.nl")
                       , cache = "TRUE"
                       )
 }
