@@ -18,6 +18,12 @@ hunspell(c("eitje", "ijtje"), dict=dictionary_nl())
 set_dicpath_nl() # add dutch dictionary to hunspell search path
 hunspell(c("eitje", "ijtje"), dict="nl")
 ```
+## Install
+
+Currently not available on CRAN, but can be installed with
+```
+devtools::install_github("edwindj/hunspell.nl")
+```
 
 ## Dictionary source
 
